@@ -52,8 +52,8 @@ markdown_extensions:
 nav:
   - Trang chủ: index.md
   - Về tôi: about-me.md
-  - Java: java/oop.md
-    - OOP: java/oop.md
+  - Java:
+    - OOP:
       - Abstract: java/oop.md
       - DRY: java/oop.md
     - Servlet: java/servlet.md
