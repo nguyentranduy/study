@@ -22,7 +22,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.expand
     - navigation.indexes
     - navigation.tracking
     - search.suggest
@@ -51,16 +50,17 @@ markdown_extensions:
 
 nav:
   - Trang chủ: index.md
-  - Về tôi: about-me.md
+  - Lộ trình:
+      - Về tôi: about-me.md
   - Java:
-      - Tổng quan: java/index.md
+      - java/index.md
       - Java Cơ bản:
-          - Giới thiệu: java/basic/intro.md
-          - Biến & Kiểu dữ liệu: java/basic/variables.md
-          - Cấu trúc điều khiển: java/basic/control-flow.md
-          - Vòng lặp: java/basic/loops.md
+          - java/basic/intro.md
+          - java/basic/variables.md
+          - java/basic/control-flow.md
+          - java/basic/loops.md
   - Python:
-    - Giới thiệu: python/intro.md
-    - Biến và kiểu dữ liệu: python/variables.md
+      - python/intro.md
+      - python/variables.md
   - JavaScript:
-    - Giới thiệu: javascript/intro.md
+      - javascript/intro.md
