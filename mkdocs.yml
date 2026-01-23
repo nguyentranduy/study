@@ -24,6 +24,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.tracking
+    - navigation.path
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -50,17 +51,13 @@ markdown_extensions:
 
 nav:
   - Trang chủ: index.md
-  - Lộ trình:
-      - Về tôi: about-me.md
+  - Về tôi: about-me.md
   - Java:
-      - java/index.md
-      - Java Cơ bản:
-          - java/basic/intro.md
-          - java/basic/variables.md
-          - java/basic/control-flow.md
-          - java/basic/loops.md
-  - Python:
-      - python/intro.md
-      - python/variables.md
-  - JavaScript:
-      - javascript/intro.md
+    - OOP: java/oop.md
+    - Servlet: java/servlet.md
+    - Spring boot: java/springboot.md
+    - Best practices: java/best-practice.md
+  - SQL: sql/sql.md
+  - Kỹ năng mềm:
+    - CV: softskill/cv.md
+    - Phỏng vấn: softskill/phongvan.md
