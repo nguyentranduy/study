@@ -54,6 +54,8 @@ nav:
   - Về tôi: about-me.md
   - Java:
     - OOP: java/oop.md
+      - Abstract: java/oop.md
+      - DRY: java/oop.md
     - Servlet: java/servlet.md
     - Spring boot: java/springboot.md
     - Best practices: java/best-practice.md
