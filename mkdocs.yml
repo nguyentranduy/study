@@ -1,0 +1,55 @@
+site_name: Tài liệu học lập trình
+site_url: https://nguyentranduy.github.io/study/
+site_description: Tài liệu tự học lập trình
+
+theme:
+  name: material
+  language: vi
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Chuyển sang light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - Trang chủ: index.md
+  - Python:
+    - Giới thiệu: python/intro.md
+    - Biến và kiểu dữ liệu: python/variables.md
+  - JavaScript:
+    - Giới thiệu: javascript/intro.md
