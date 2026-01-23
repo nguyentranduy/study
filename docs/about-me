@@ -1,0 +1,18 @@
+# Hướng dẫn cài đặt MkDocs Material trên GitHub
+
+Tài liệu này hướng dẫn chi tiết cách tạo website tài liệu học lập trình sử dụng MkDocs Material và GitHub Pages.
+
+---
+
+## Mục lục
+
+1. [Tổng quan](#1-tổng-quan)
+2. [Bước 1: Tạo repository trên GitHub](#2-bước-1-tạo-repository-trên-github)
+3. [Bước 2: Tạo file cấu hình mkdocs.yml](#3-bước-2-tạo-file-cấu-hình-mkdocsyml)
+4. [Bước 3: Tạo GitHub Actions workflow](#4-bước-3-tạo-github-actions-workflow)
+5. [Bước 4: Tạo nội dung tài liệu](#5-bước-4-tạo-nội-dung-tài-liệu)
+6. [Bước 5: Bật GitHub Pages](#6-bước-5-bật-github-pages)
+7. [Cách viết nội dung Markdown](#7-cách-viết-nội-dung-markdown)
+8. [Cấu trúc thư mục hoàn chỉnh](#8-cấu-trúc-thư-mục-hoàn-chỉnh)
+
+---
