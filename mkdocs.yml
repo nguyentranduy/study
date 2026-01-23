@@ -48,6 +48,14 @@ markdown_extensions:
 
 nav:
   - Trang chủ: index.md
+  - Về tôi
+  - Java:
+      - Tổng quan: java/index.md
+      - Java Cơ bản:
+          - Giới thiệu: java/basic/intro.md
+          - Biến & Kiểu dữ liệu: java/basic/variables.md
+          - Cấu trúc điều khiển: java/basic/control-flow.md
+          - Vòng lặp: java/basic/loops.md
   - Python:
     - Giới thiệu: python/intro.md
     - Biến và kiểu dữ liệu: python/variables.md
