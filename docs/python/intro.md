@@ -1,44 +1,27 @@
-# Biến và kiểu dữ liệu trong Python
+# Giới thiệu Python
 
-## Khai báo biến
+Python là ngôn ngữ lập trình bậc cao, dễ đọc và dễ học.
 
-Python không cần khai báo kiểu dữ liệu:
+## Cài đặt Python
 
-```python
-# Số nguyên
-age = 25
+Tải Python từ: https://www.python.org/downloads/
 
-# Số thực
-price = 19.99
-
-# Chuỗi
-name = "John"
-
-# Boolean
-is_student = True
-```
-
-## Kiểm tra kiểu dữ liệu
+## Chương trình đầu tiên
 
 ```python
-print(type(age))         # <class 'int'>
-print(type(price))       # <class 'float'>
-print(type(name))        # <class 'str'>
-print(type(is_student))  # <class 'bool'>
+print("Hello, World!")
 ```
 
-## Chuyển đổi kiểu dữ liệu
+## Chạy chương trình
 
-```python
-# String sang int
-num_str = "100"
-num_int = int(num_str)
+Lưu file với đuôi `.py` và chạy:
 
-# Int sang string
-age = 25
-age_str = str(age)
-
-# Int sang float
-x = 10
-x_float = float(x)
+```bash
+python hello.py
 ```
+
+## Tại sao chọn Python?
+
+- Cú pháp đơn giản, dễ đọc
+- Cộng đồng lớn, nhiều tài liệu
+- Ứng dụng đa dạng: web, data science, AI, automation
