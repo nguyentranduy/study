@@ -1,27 +1,20 @@
-# Giới thiệu Python
+# About Me
 
-Python là ngôn ngữ lập trình bậc cao, dễ đọc và dễ học.
+<img src="img/2026_Anh.jpg" alt="Avatar" style="border-radius: 50%; width: 200px; height: 200px; display: block; margin: 0 auto; border: 2px solid #007bff;">
 
-## Cài đặt Python
+Chào bạn! Tôi là **Nguyễn Trần Duy**, lập trình viên đam mê và người sáng tạo trang web này. Nơi đây chia sẻ tài liệu học lập trình Java, các ngôn ngữ CNTT khác, cùng mẹo hay và dự án thực tế.
 
-Tải Python từ: https://www.python.org/downloads/
+### Tại sao tôi tạo trang này?
+- Giúp bạn học nhanh hơn qua hướng dẫn dễ hiểu.
+- Cập nhật kiến thức mới nhất từ kinh nghiệm cá nhân.
+- Xây dựng cộng đồng học tập cùng nhau.
 
-## Chương trình đầu tiên
+### Về tôi
+- Kinh nghiệm: 5+ năm phát triển phần mềm.
+- Sở thích: Code, đọc sách tech, chạy bộ.
+- Mục tiêu: Làm CNTT dễ tiếp cận hơn cho mọi người.
 
-```python
-print("Hello, World!")
-```
+Liên hệ: [email@example.com](mailto:nguyentranduy94@gmail.com)  
+Theo dõi tôi trên: [Facebook](https://www.facebook.com/duy.nguyentran.2707/)
 
-## Chạy chương trình
-
-Lưu file với đuôi `.py` và chạy:
-
-```bash
-python hello.py
-```
-
-## Tại sao chọn Python?
-
-- Cú pháp đơn giản, dễ đọc
-- Cộng đồng lớn, nhiều tài liệu
-- Ứng dụng đa dạng: web, data science, AI, automation
+Hãy tham gia và học cùng nhé! 🚀
