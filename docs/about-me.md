@@ -1,8 +1,10 @@
 # About Me
 
-<p align="center">
-  <img src="../assets/avatar.jpg" alt="Avatar" class="avatar">
-</p>
+<div class="profile">
+  <img src="../assets/avatar.jpg" class="avatar">
+  <h2>Nguyễn Trần Duy</h2>
+  <p>Giảng viên · Mentor Lập trình</p>
+</div>
 
 Xin chào, tôi là **Nguyễn Trần Duy** – giảng viên / mentor trong lĩnh vực **Lập trình & Công nghệ thông tin**.
 
