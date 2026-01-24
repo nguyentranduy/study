@@ -63,3 +63,6 @@ nav:
   - Kỹ năng mềm:
     - CV: softskill/cv.md
     - Phỏng vấn: softskill/phongvan.md
+
+extra_css:
+  - assets/styles.css
