@@ -25,6 +25,24 @@
   line-height: 1.7;
 }
 
+.contact {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact a {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: var(--md-primary-fg-color);
+  text-decoration: underline;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .about-grid {
