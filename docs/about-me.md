@@ -1,6 +1,6 @@
 # About Me
 
-<img src="img/2026_Anh.jpg" alt="Avatar" style="border-radius: 50%; width: 200px; height: 200px; display: block; margin: 0 auto; border: 2px solid #007bff;">
+<img src="/img/2026_Anh.jpg" alt="Avatar" style="border-radius: 50%; width: 200px; height: 200px; display: block; margin: 0 auto; border: 2px solid #007bff;">
 
 Chào bạn! Tôi là **Nguyễn Trần Duy**, lập trình viên đam mê và người sáng tạo trang web này. Nơi đây chia sẻ tài liệu học lập trình Java, các ngôn ngữ CNTT khác, cùng mẹo hay và dự án thực tế.
 
