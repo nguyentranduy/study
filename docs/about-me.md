@@ -3,12 +3,16 @@
   <div class="about-left">
     <img src="../assets/avatar.jpg" class="avatar">
     <h3>Nguyễn Trần Duy</h3>
-    <p class="role">Giảng viên · Mentor Lập trình</p>
+    <p class="role">Mentor - Lập trình viên Java</p>
+    <div class="contact">
+      <a href="mailto:nguyentranduy94@gmail.com">📧 Email</a>
+      <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">🌐 Facebook</a>
+    </div>
   </div>
 
   <div class="about-right">
     <p>
-      Tôi là <strong>Nguyễn Trần Duy</strong> – giảng viên / mentor trong lĩnh vực
+      Tôi là <strong>Nguyễn Trần Duy</strong> – mentor trong lĩnh vực
       <strong>Lập trình & Công nghệ thông tin</strong>.
     </p>
 
@@ -21,7 +25,8 @@
     <ul>
       <li>Java (Core, OOP, Servlet, Spring Boot)</li>
       <li>Tư duy lập trình & best practices</li>
-      <li>SQL & backend foundation</li>
+      <li>Cơ sở dữ liệu</li>
+      <li>Kỹ năng mềm</li>
     </ul>
   </div>
 
