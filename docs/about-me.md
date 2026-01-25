@@ -3,10 +3,10 @@
   <div class="about-left">
     <img src="../assets/avatar.jpg" class="avatar">
     <h3>Nguyễn Trần Duy</h3>
-    <p class="role">Mentor - Lập trình viên Java</p>
+    <p class="role">Mentor Java</p>
     <div class="contact">
-      <a href="mailto:nguyentranduy94@gmail.com">📧 Email</a>
-      <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">🌐 Facebook</a>
+      <a href="mailto:nguyentranduy94@gmail.com">Email</a>
+      <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">Facebook</a>
     </div>
   </div>
 
@@ -33,10 +33,10 @@
 
     <ul class="experience">
       <li>
-        <strong>Senior Java Developer</strong> – Rakus Việt Nam
+        <strong>Rakus Việt Nam</strong> – Senior Java Developer (Hiện tại)
       </li>
       <li>
-        <strong>Java Developer</strong> – FPT Software (Hồ Chí Minh)
+        <strong>FPT Software Hồ Chí Minh</strong> – Java Developer
       </li>
     </ul>
   </div>
