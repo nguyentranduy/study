@@ -58,6 +58,10 @@
   text-decoration: underline;
 }
 
+.experience li {
+  margin-bottom: 0.5rem;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .about-grid {
