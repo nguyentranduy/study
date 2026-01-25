@@ -11,8 +11,8 @@
 }
 
 .about-left h3 {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .about-left .role {
@@ -20,9 +20,24 @@
   color: #666;
 }
 
+.about-right {
+  text-align: justify;
+}
+
 .about-right p {
-  max-width: 680px;
+  font-size: 0.95rem;
   line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-right ul {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.about-right h3 {
+  font-size: 1.05rem;
+  margin-top: 1.8rem;
 }
 
 .contact {
