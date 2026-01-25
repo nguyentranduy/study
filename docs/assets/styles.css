@@ -42,9 +42,7 @@
 
 .contact {
   margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .contact a {
@@ -56,6 +54,11 @@
 .contact a:hover {
   color: var(--md-primary-fg-color);
   text-decoration: underline;
+}
+
+.contact a:not(:last-child)::after {
+  content: " | ";
+  color: #999;
 }
 
 .experience li {
