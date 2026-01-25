@@ -28,6 +28,17 @@
       <li>Cơ sở dữ liệu</li>
       <li>Kỹ năng mềm</li>
     </ul>
+
+    <h3>Kinh nghiệm làm việc</h3>
+
+    <ul class="experience">
+      <li>
+        <strong>Senior Java Developer</strong> – Rakus Việt Nam
+      </li>
+      <li>
+        <strong>Java Developer</strong> – FPT Software (Hồ Chí Minh)
+      </li>
+    </ul>
   </div>
 
 </div>
