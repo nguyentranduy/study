@@ -5,7 +5,8 @@
     <h3>Nguyễn Trần Duy</h3>
     <p class="role">Mentor Java</p>
     <div class="contact">
-      <a href="mailto:nguyentranduy94@gmail.com">Email</a> | <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">Facebook</a>
+      <a href="mailto:nguyentranduy94@gmail.com">Email</a>
+      <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">Facebook</a>
     </div>
   </div>
 
