@@ -64,7 +64,7 @@ git config --list
 
 ## Git Workflow cơ bản
 
-<img src="https://miro.medium.com/v2/resize:fit:686/1*diRLm1S5hkVoh5qeArND0Q.png" alt="Git Workflow" width="600">
+<img src="https://stopbyte.com/uploads/default/original/1X/274acda49c194fc1720e87bce210b661760877f7.png" alt="Git Workflow" width="600">
 
 *Sơ đồ minh họa Git workflow cơ bản*
 
@@ -384,3 +384,4 @@ Sau khi nắm vững Git cơ bản, hãy học về:
 - **[Git Documentation](https://git-scm.com/doc)** - Tài liệu chính thức
 - **[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)** - Bảng tra cứu nhanh
 - **[Learn Git Branching](https://learngitbranching.js.org/?locale=vi)** - Game học Git
+
