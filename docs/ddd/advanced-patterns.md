@@ -178,38 +178,13 @@ public interface EventStore {
 
 ### Kiến trúc CQRS
 
-```
-┌─────────────┐          ┌──────────────────┐
-│   Client    │          │  Write Model     │
-│             │────────▶│  (Command Side)  │
-│             │ Command  │  - Domain Logic  │
-└─────────────┘          │  - Aggregates    │
-      │                  └────────┬─────────┘
-      │                           │
-      │                      Save Events
-      │                           │
-      │                           ▼
-      │                  ┌────────────────┐
-      │                  │  Event Store   │
-      │                  └────────┬───────┘
-      │                           │
-      │                     Publish Events
-      │                           │
-      │                           ▼
-      │                  ┌────────────────────┐
-      │                  │  Event Processor   │
-      │                  │  (Projection)      │
-      │                  └────────┬───────────┘
-      │                           │
-      │                      Update
-      │                           │
-      │                           ▼
-      │  Query            ┌─────────────────────┐
-      └─────────────────▶│    Read Model       │
-                          │   (Query Side)      │
-                          │   - Optimized Views │
-                          │   - Denormalized    │
-                          └─────────────────────┘
+```mermaid
+flowchart TD
+    Client -->|Command| WriteModel["Write Model (Command Side)<br/>- Domain Logic<br/>- Aggregates"]
+    WriteModel -->|Save Events| EventStore["Event Store"]
+    EventStore -->|Publish Events| Projection["Event Processor (Projection)"]
+    Projection -->|Update| ReadModel["Read Model (Query Side)<br/>- Optimized Views<br/>- Denormalized"]
+    Client -->|Query| ReadModel
 ```
 
 ### Ví dụ: Banking System với CQRS
@@ -668,4 +643,5 @@ public class AccountController {
 ---
 
 **Tiếp theo:** [Example Project - Banking System →](example-project.md)
+
 
