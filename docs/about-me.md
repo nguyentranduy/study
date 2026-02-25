@@ -1,44 +1,42 @@
-<div class="about-grid">
+# Về tôi
 
-  <div class="about-left">
-    <img src="../assets/avatar.jpg" class="avatar">
-    <h3>Nguyễn Trần Duy</h3>
-    <p class="role">Mentor Java</p>
-    <div class="contact">
-      <a href="mailto:nguyentranduy94@gmail.com">Email</a>
-      <a href="https://www.facebook.com/duy.nguyentran.2707/" target="_blank">Facebook</a>
-    </div>
-  </div>
+## Giới thiệu
 
-  <div class="about-right">
-    <p>
-      Tôi là <strong>Nguyễn Trần Duy</strong> – mentor trong lĩnh vực
-      <strong>Lập trình & Công nghệ thông tin</strong>.
-    </p>
+Xin chào! Tôi là **Nguyen Tran Duy**, một lập trình viên đam mê công nghệ và chia sẻ kiến thức.
 
-    <p>
-      Trang web này giúp <strong>hệ thống hóa kiến thức từ cơ bản đến thực tế</strong>,
-      phù hợp cho sinh viên và người mới bắt đầu.
-    </p>
+## Mục đích của trang web
 
-    <h3>Tôi tập trung vào</h3>
-    <ul>
-      <li>Java (Core, OOP, Servlet, Spring Boot)</li>
-      <li>Tư duy lập trình & best practices</li>
-      <li>Cơ sở dữ liệu</li>
-      <li>Kỹ năng mềm</li>
-    </ul>
+Trang web này được tạo ra với mục đích:
 
-    <h3>Kinh nghiệm làm việc</h3>
+- **Ghi chép lại** những kiến thức đã học được trong quá trình làm việc và tự học
+- **Chia sẻ** với cộng đồng những tài liệu hữu ích
+- **Hệ thống hóa** kiến thức một cách logic và dễ hiểu
 
-    <ul class="experience">
-      <li>
-        <strong>Rakus Việt Nam</strong> – Senior Java Developer (Hiện tại)
-      </li>
-      <li>
-        <strong>FPT Software Hồ Chí Minh</strong> – Java Developer
-      </li>
-    </ul>
-  </div>
+## Nội dung
 
-</div>
+Trang web tập trung vào 3 mảng chính:
+
+### 1. Java
+- Lập trình hướng đối tượng (OOP)
+- Java Core (Collections, Exception, Multithreading)
+- Servlet & JSP
+- Spring Framework
+
+### 2. SQL
+- SQL cơ bản và nâng cao
+- Tối ưu hóa truy vấn
+- Các bài thực hành
+
+### 3. Kỹ năng mềm
+- Viết CV hiệu quả
+- Kỹ năng phỏng vấn
+- Làm việc nhóm
+
+## Liên hệ
+
+- :fontawesome-brands-github: [GitHub](https://github.com/nguyentranduy)
+
+---
+
+!!! quote "Châm ngôn"
+    "The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie

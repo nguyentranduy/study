@@ -1,6 +1,7 @@
 site_name: Tài liệu học lập trình
 site_url: https://nguyentranduy.github.io/study/
-site_description: Tài liệu tự học lập trình
+site_description: Tài liệu tự học lập trình - Java, SQL, Kỹ năng mềm
+site_author: Nguyen Tran Duy
 
 theme:
   name: material
@@ -18,20 +19,48 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Chuyển sang light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
-    - navigation.tabs
+    # Navigation
+    - navigation.instant          # ✨ Load nhanh như SPA
+    - navigation.instant.progress # ✨ Progress bar khi load
+    - navigation.tabs             # ✨ Menu tabs ở top (đẹp!)
+    - navigation.tabs.sticky      # ✨ Tabs luôn hiện khi scroll
     - navigation.sections
+    - navigation.expand           # ✨ Auto expand all sections
     - navigation.top
     - navigation.indexes
     - navigation.tracking
     - navigation.path
+    - navigation.footer           # ✨ Previous/Next buttons
+    
+    # Search
     - search.suggest
     - search.highlight
+    - search.share
+    
+    # Content
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
+    - content.action.edit         # ✨ "Edit this page" button
+    - content.action.view         # ✨ "View source" button
+    - content.tooltips            # ✨ Improved tooltips
+    
+    # Table of Contents
+    - toc.follow
+    - toc.integrate               # ✨ TOC vào sidebar (optional)
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
 
 plugins:
-  - search
+  - search:
+      lang: vi
+  - tags:                         # ✨ Tags cho pages
+      tags_file: tags.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -40,29 +69,143 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - attr_list
   - md_in_html
   - tables
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr                          # ✨ Abbreviations/tooltips
+  - pymdownx.snippets:            # ✨ Include files
+      auto_append:
+        - includes/abbreviations.md
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+      toc_depth: 3
 
 nav:
   - Trang chủ: index.md
   - Về tôi: about-me.md
   - Java:
-    - OOP:
-      - Abstract: java/oop.md
-      - DRY: java/oop.md
-    - Servlet: java/servlet.md
-    - Spring boot: java/springboot.md
-    - Best practices: java/best-practice.md
-  - SQL: sql/sql.md
+    - java/index.md
+    - OOP - Lập trình hướng đối tượng:
+      - Tổng quan OOP: java/oop/index.md
+      - 4 tính chất OOP: java/oop/4-tinh-chat.md
+      - Abstract Class & Interface: java/oop/abstract-interface.md
+      - SOLID Principles: java/oop/solid.md
+    - Java Core:
+      - Collections Framework: java/core/collections.md
+      - Exception Handling: java/core/exception.md
+      - Multithreading: java/core/multithreading.md
+      - Java 8+ Features: java/core/java8-features.md
+    - Servlet & JSP:
+      - Servlet cơ bản: java/web/servlet.md
+      - JSP cơ bản: java/web/jsp.md
+      - MVC Pattern: java/web/mvc.md
+    - Spring Framework:
+      - Spring Boot cơ bản: java/spring/springboot-basic.md
+      - Spring MVC: java/spring/spring-mvc.md
+      - Spring Data JPA: java/spring/spring-data-jpa.md
+      - Spring Security: java/spring/spring-security.md
+    - Best Practices: java/best-practice.md
+  - Domain-Driven Design:
+    - ddd/index.md
+    - Strategic Design: ddd/strategic-design.md
+    - Tactical Design: ddd/tactical-design.md
+    - Building Blocks: ddd/building-blocks.md
+    - Advanced Patterns: ddd/advanced-patterns.md
+    - Example Project: ddd/example-project.md
+  - Git & Git Workflow:
+    - git/index.md
+    - Git cơ bản:
+      - Fundamentals: git/fundamentals.md
+      - Branching Strategies: git/branching.md
+    - Git Workflows:
+      - Git Flow: git/git-flow.md
+      - GitHub Flow: git/github-flow.md
+      - GitLab Flow: git/gitlab-flow.md
+    - Thực hành:
+      - Common Scenarios: git/common-scenarios.md
+      - Best Practices: git/best-practices.md
+  - SQL:
+    - sql/index.md
+    - SQL cơ bản:
+      - Giới thiệu SQL: sql/basic/intro.md
+      - SELECT & WHERE: sql/basic/select-where.md
+      - JOIN: sql/basic/join.md
+      - GROUP BY & HAVING: sql/basic/group-by.md
+    - SQL nâng cao:
+      - Subquery: sql/advanced/subquery.md
+      - Window Functions: sql/advanced/window-functions.md
+      - Index & Performance: sql/advanced/index-performance.md
+    - Thực hành: sql/practice.md
   - Kỹ năng mềm:
-    - CV: softskill/cv.md
-    - Phỏng vấn: softskill/phongvan.md
+    - softskill/index.md
+    - CV & Hồ sơ:
+      - Viết CV hiệu quả: softskill/cv/viet-cv.md
+      - Portfolio: softskill/cv/portfolio.md
+    - Phỏng vấn:
+      - Chuẩn bị phỏng vấn: softskill/interview/chuan-bi.md
+      - Câu hỏi thường gặp: softskill/interview/cau-hoi.md
+      - Phỏng vấn kỹ thuật: softskill/interview/ky-thuat.md
+    - Kỹ năng làm việc:
+      - Làm việc nhóm: softskill/work/teamwork.md
+      - Quản lý thời gian: softskill/work/time-management.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nguyentranduy
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/nguyentranduy
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:your-email@example.com
+      name: Email
+  
+  # ✨ Feedback widget
+  analytics:
+    feedback:
+      title: Trang này có hữu ích không?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Hữu ích
+          data: 1
+          note: >-
+            Cảm ơn bạn đã feedback! 
+            Nếu có góp ý, vui lòng tạo issue trên GitHub.
+        - icon: material/emoticon-sad-outline
+          name: Chưa hữu ích
+          data: 0
+          note: >-
+            Cảm ơn bạn đã feedback!
+            Chúng tôi sẽ cải thiện nội dung.
+  
+  generator: false
 
 extra_css:
   - assets/styles.css
+
+copyright: Copyright &copy; 2026 Nguyen Tran Duy
