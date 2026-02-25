@@ -178,30 +178,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/nguyentranduy
       name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/nguyentranduy
-      name: LinkedIn
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/duy.nguyentran.2707/
+      name: Facebook
     - icon: fontawesome/solid/envelope
-      link: mailto:your-email@example.com
+      link: mailto:nguyentranduy94@gmail.com
       name: Email
-  
-  # ✨ Feedback widget
-  analytics:
-    feedback:
-      title: Trang này có hữu ích không?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: Hữu ích
-          data: 1
-          note: >-
-            Cảm ơn bạn đã feedback! 
-            Nếu có góp ý, vui lòng tạo issue trên GitHub.
-        - icon: material/emoticon-sad-outline
-          name: Chưa hữu ích
-          data: 0
-          note: >-
-            Cảm ơn bạn đã feedback!
-            Chúng tôi sẽ cải thiện nội dung.
   
   generator: false
 
