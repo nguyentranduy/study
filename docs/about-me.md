@@ -6,10 +6,7 @@
     </div>
     <h2 style="margin-top: 1rem; margin-bottom: 0.5rem;">Nguyen Tran Duy</h2>
     <p style="color: #666; font-size: 1.1rem; margin-bottom: 0.5rem;">
-        <strong>Software Developer</strong> | Java & Spring Specialist
-    </p>
-    <p style="color: #888; font-size: 0.95rem;">
-        📍 Vietnam | 💼 Full-stack Developer | 🎓 Passionate Learner
+        <strong>Software Developer</strong> | Java Trainer
     </p>
 </div>
 
@@ -144,14 +141,6 @@ Trang web tập trung vào **4 mảng kiến thức** quan trọng:
     3. 📝 **Document**: Ghi chép lại kiến thức đã học
     4. 🎓 **Share**: Chia sẻ với cộng đồng
 
-### 🎯 Mục tiêu 2026
-
-- [x] Xây dựng trang documentation hoàn chỉnh
-- [ ] Hoàn thành 100+ bài viết về Java & Spring
-- [ ] Đóng góp cho các Open Source Projects
-- [ ] Xây dựng 3 dự án thực tế với Spring Boot
-- [ ] Học thêm về Microservices & Cloud
-
 ---
 
 ## 📫 Liên Hệ
@@ -161,8 +150,8 @@ Rất vui được kết nối với bạn! Hãy liên hệ qua các kênh sau:
 <div align="center" markdown="1">
 
 [:fontawesome-brands-github: GitHub](https://github.com/nguyentranduy){ .md-button .md-button--primary }
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/nguyentranduy){ .md-button .md-button--primary }
-[:fontawesome-solid-envelope: Email](mailto:nguyentranduy@example.com){ .md-button .md-button--primary }
+[:fontawesome-brands-facebook: Facebook](https://www.facebook.com/duy.nguyentran.2707/){ .md-button .md-button--primary }
+[:fontawesome-solid-envelope: Email](mailto:nguyentranduy94@gmail.com){ .md-button .md-button--primary }
 
 </div>
 
