@@ -4,7 +4,7 @@
     <div style="width: 250px; height: 250px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 4px solid #2196F3;">
         <img src="../assets/avatar.jpg" alt="Nguyen Tran Duy" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%; transform: scale(1.5);">
     </div>
-    <h2 style="margin-top: 1rem; margin-bottom: 0.5rem;">Nguyen Tran Duy</h2>
+    <h2 style="margin-top: 1rem; margin-bottom: 0.5rem;">Nguyễn Trần Duy</h2>
     <p style="color: #666; font-size: 1.1rem; margin-bottom: 0.5rem;">
         <strong>Software Developer</strong> | Java Trainer
     </p>
@@ -14,10 +14,13 @@
 
 ## 👋 Giới Thiệu
 
-Xin chào! Tôi là **Nguyen Tran Duy**, một lập trình viên đam mê công nghệ và không ngừng học hỏi. Với niềm đam mê với lập trình và giải quyết vấn đề, tôi luôn tìm kiếm cơ hội để nâng cao kỹ năng và chia sẻ kiến thức với cộng đồng.
+Xin chào! Tôi là **Nguyễn Trần Duy**, một lập trình viên đam mê công nghệ và không ngừng học hỏi. Với niềm đam mê với lập trình và giải quyết vấn đề, tôi luôn tìm kiếm cơ hội để nâng cao kỹ năng và chia sẻ kiến thức với cộng đồng.
+- 
 
-!!! info "Tầm nhìn của tôi"
-    Trở thành một Software Engineer toàn diện, không chỉ giỏi về kỹ thuật mà còn có khả năng thiết kế hệ thống, làm việc nhóm hiệu quả và đóng góp giá trị thực cho sản phẩm.
+!!! info "Vài nét về tôi"
+    - Senior Java developer
+    - Đang hoàn thành Thạc sĩ CNTT tại Học viện Công Nghệ Bưu Chính Viễn Thông
+    - Hơn 450 giờ đồng hành và hỗ trợ cho 100+ sinh viên từ 2020 đến nay
 
 ---
 
