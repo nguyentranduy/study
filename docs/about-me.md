@@ -14,7 +14,7 @@
 
 ## 👋 Giới Thiệu
 
-- Xin chào! Tôi là **Nguyễn Trần Duy**, một lập trình viên đam mê công nghệ và không ngừng học hỏi. Với niềm đam mê với lập trình và giải quyết vấn đề, tôi luôn tìm kiếm cơ hội để nâng cao kỹ năng và chia sẻ kiến thức với cộng đồng.
+Xin chào! Tôi là **Nguyễn Trần Duy**, một lập trình viên đam mê công nghệ và không ngừng học hỏi. Với niềm đam mê với lập trình và giải quyết vấn đề, tôi luôn tìm kiếm cơ hội để nâng cao kỹ năng và chia sẻ kiến thức với cộng đồng.
 
 
 !!! info "Vài nét về tôi"
