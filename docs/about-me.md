@@ -4,7 +4,7 @@
     <div style="width: 250px; height: 250px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 4px solid #2196F3;">
         <img src="../assets/avatar.jpg" alt="Nguyen Tran Duy" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%; transform: scale(1.5);">
     </div>
-    <h2 style="margin-top: 1rem; margin-bottom: 0.5rem;">Nguyễn Trần Duy</h2>
+    <h2 style="margin-top: 1rem;">Nguyễn Trần Duy</h2>
     <p style="color: #666; font-size: 1.1rem; margin-bottom: 0.5rem;">
         <strong>Software Developer</strong> | Java Trainer
     </p>
